@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">GraduationProject</string>
+    <string name="EventName"> Event Name: Mobile Application Development</string>
+    <string name="Time">12:30PM</string>
+    <string name="EventDate">12/30/2019</string>
+    <string name="EventDescription">EventDescription:such agreat event i really enjoy it huge competation with amazing people</string>
+    <string name="location"> Find on map </string>
+</resources>

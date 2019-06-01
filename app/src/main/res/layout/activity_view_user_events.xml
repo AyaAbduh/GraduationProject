@@ -10,10 +10,7 @@
         android:id="@+id/userEvents"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@drawable/image"
         android:scrollbars="vertical"
-        tools:layout_editor_absoluteX="242dp"
-        tools:layout_editor_absoluteY="16dp">
+        tools:listitem="@layout/single_event" />
 
-    </androidx.recyclerview.widget.RecyclerView>
 </androidx.constraintlayout.widget.ConstraintLayout>

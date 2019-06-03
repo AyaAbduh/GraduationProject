@@ -5,4 +5,5 @@
     <string name="EventDate">12/30/2019</string>
     <string name="EventDescription">EventDescription:such agreat event i really enjoy it huge competation with amazing people</string>
     <string name="location"> Find on map </string>
+    <string name="hello_blank_fragment">Message Appear here</string>
 </resources>

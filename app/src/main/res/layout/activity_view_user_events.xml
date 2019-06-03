@@ -6,11 +6,20 @@
     android:layout_height="match_parent"
     tools:context=".ViewUserEventsActivity">
 
+    <include
+        android:id="@+id/include"
+        layout="@layout/toolbar_layout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/userEvents"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="566dp"
         android:scrollbars="vertical"
+        app:layout_constraintTop_toBottomOf="@+id/include"
+        tools:layout_editor_absoluteX="0dp"
         tools:listitem="@layout/single_event" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
